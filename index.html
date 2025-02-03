@@ -1,12 +1,223 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>I-Ting Tsai</title>
+
+  <meta name="author" content="I-Ting Tsai" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 </head>
+
 <body>
-    Hello, world! This is I-Ting Tsai's Homepage.
+  <!-- Header / Intro Section -->
+  <div style="width: 100%; padding: 40px 0;">
+    <table style="width: 100%; max-width: 800px; margin: 0 auto; border-spacing: 0;">
+      <tr>
+        <td>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <!-- IMAGE ON THE LEFT -->
+              <td style="padding: 15px; width: 24%; max-width: 37%; text-align: left;">
+                <img 
+                  style="width:100%;max-width:100%;object-fit: cover; border-radius: 20%;" 
+                  alt="profile photo" 
+                  src="images/my_photo2.png"
+                  class="hoverZoomLink"
+                />
+              </td>
+
+              <!-- TEXT ON THE RIGHT -->
+              <td style="padding: 8px; width: 100%; vertical-align: middle;">
+                <p class="name" style="text-align: left;">I-Ting Tsai</p> 
+
+                <p>
+                  Hi, I'm a Computer Science PhD student at Cornell advised by 
+                  Prof. <a href="https://www.cs.cornell.edu/~bharathh/">Bharath Hariharan</a>. My research interests lie in computer vision, focusing on generative AI and design.
+
+                </p>
+                <p></p>
+                <p style="text-align: left;">
+                  <span style="margin-right: 15px;">Find me on</span>
+                  <!-- Google Scholar -->
+                  <a 
+                    href="https://scholar.google.com/citations?user=iGL84NQAAAAJ"
+                    style="margin-right: 17px;"
+                  >
+                    <img 
+                      src="images/google-scholar.png" 
+                      alt="Google Scholar icon" 
+                      style="width: 17px; vertical-align: middle;"
+                    />
+                  </a>
+                
+                  <!-- GitHub -->
+                  <a 
+                    href="https://github.com/itingtsai/"
+                    style="margin-right: 17px;"
+                  >
+                    <img 
+                      src="images/github_icon.png" 
+                      alt="GitHub icon" 
+                      style="width: 20px; vertical-align: middle;"
+                    />
+                  </a>
+                
+                  <!-- Twitter -->
+                  <a 
+                    href="https://x.com/i_ting_tsai"
+                    style="margin-right: 17px;"
+                  >
+                    <img 
+                      src="images/twitter.png" 
+                      alt="Twitter icon" 
+                      style="width: 16px; vertical-align: middle;"
+                    />
+                  </a>
+                
+                  <!-- Email -->
+                  <a href="mailto:it84@cornell.edu">
+                    <img 
+                      src="images/envelope.1024x799.png" 
+                      alt="Email icon" 
+                      style="width: 19px; vertical-align: middle;"
+                    />
+                  </a>
+                </p>
+                
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <hr style="width: 100%; max-width: 800px;">
+
+  <!-- Research Section -->
+  <table style="width: 100%; max-width: 800px; margin: 30px auto 0; border-spacing: 0;">
+    <tr>
+      <td>
+        <!-- Research Section Heading -->
+        <table style="width: 100%; border-spacing: 0;">
+          <tr>
+            <td style="padding: 16px; width: 100%; vertical-align: middle;">
+              <h2>Research</h2>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Research Item(s) -->
+        <table style="width: 100%; border-spacing: 0;">
+          <tr onmouseover="r2r_start()" onmouseout="r2r_stop()">
+            <td style="padding: 16px; width: 20%; vertical-align: middle;">
+              <div class="one">
+                <div class="two" id="r2r_image">
+                  <video width="100%" muted autoplay loop>
+                    <source src="images/video_16.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src="images/seed_2048755225.png" width="100%" />
+              </div>
+              <script type="text/javascript">
+                function r2r_start() {
+                  document.getElementById('r2r_image').style.opacity = "1";
+                }
+                function r2r_stop() {
+                  document.getElementById('r2r_image').style.opacity = "0";
+                }
+                r2r_stop();
+              </script>
+            </td>
+            <td style="padding: 8px; width: 80%; vertical-align: middle;">
+              <span class="papertitle">
+                <strong>3D Synthesis for Architectural Design</strong>
+              </span>
+              <br />
+              <strong>I-Ting Tsai</strong>, Bharath Hariharan
+              <br />
+              <em>WACV</em>, 2025 <span style="color: #ee3d96; font-weight: bold;">(Application Track)</span>
+              <br />
+              <p style="text-align: left;">
+                paper &nbsp;|&nbsp;
+                video &nbsp;|&nbsp;
+                <a href="https://itingtsai.github.io/syn_arch_2025/">project page</a> &nbsp;|&nbsp;
+                <a href="data/Tsai_2025_WACV.bib">bibtex</a> 
+              </p>
+              <p>We introduce the problem of 3D synthesis for architectural design, and propose a novel pipeline that processes geometry, texture, and detail elements separately resulting in superior design outcomes compared to a single-step process using SDS optimization.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Micropaper Section -->
+  <table style="width: 100%; max-width: 800px; margin: 30px auto 0; border-spacing: 0;">
+    <tr>
+      <td>
+        <!-- Micropaper Section Heading -->
+        <table style="width: 100%; border-spacing: 0;">
+          <tr>
+            <td style="padding: 16px; width: 100%; vertical-align: middle;">
+              <h2>Micropapers</h2>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Micropaper Item(s) -->
+        <table style="width: 100%; border-spacing: 0;">
+          <tr>
+            <td style="padding: 16px; width: 20%; vertical-align: middle;">
+              <div class="one">
+                <img src="images/BaseballFigure.png" width="100%" />
+              </div>
+            </td>
+            <td style="padding: 8px; width: 80%; vertical-align: middle;">
+              <span class="papertitle">
+                <strong>
+                  Million Eyes on the "Robot Ump": The Case for Studying Sports in 
+                  HRI Through Baseball
+                </strong>
+              </span>
+              <br />
+              Waki Kamino, Andrea Wang, Dhruv Agarwal, Sil Hamilton, Eun Jeong Kang, 
+              Jieun Kim, Keigo Kusumegi, Pegah Moradi, Daniel Mwesigwa, Yan Tao, 
+              <strong>I-Ting Tsai</strong>, Ethan Yang, Shengqi Zhu, Shu-Jung Han, 
+              Chi-Jung Lee, Michael Joseph Sack, Tianhong Catherine Yu, Weslie Khoo, 
+              Andy Elliot Ricci, Yoyo Tsung-Yu Hou, Boyoung Kim, Dr. Selma Sabanovic, 
+              David Crandall, Karen Levy, Malte F Jung
+              <br />
+              <em>HRI</em>, 2025
+              <br />
+              <p style="text-align: left;">
+                late-breaking report &nbsp;|&nbsp;
+                bibtex
+              </p>
+              <p>Using robot umpires in baseball as a primary example, we explore various emerging themes from interdisciplinary perspectives, including the technical challenges of computer vision and graphics.</p>
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+
+  <hr style="width: 100%; max-width: 800px; margin-top: 60px">
+  <!-- Footer -->
+  <div style="width: 100%; text-align: center; padding: 20px;">
+    <p style="font-size: 12px; margin: 0; color: #A8A8A8;">
+      Website template adapted from
+      <a style="font-size: 12px; opacity: 0.5; text-decoration: none;" 
+      href="https://github.com/jonbarron/jonbarron_website">
+        Jon Barron
+      </a>.
+    </p>
+  </div>
 </body>
 </html>
