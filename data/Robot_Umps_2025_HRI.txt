@@ -1,0 +1,8 @@
+@inproceedings{Robot_Umps_2025_HRI,
+author = {Kamino, Waki and Wen-Yi, Andrea W. and Agarwal, Dhruv and Hamilton, Sil and Kang, Eun Jeong and Kim, Jieun and Kusumegi, Keigo and Moradi, Pegah and Mwesigwa, Daniel and Tao, Yan and Tsai, I-Ting and Yang, Ethan and Zhu, Shengqi and Han, Shu-Jung and Lee, Chi-Jung and Sack, Michael Joseph and Yu, Tianhong Catherine and Khoo, Weslie and Ricci, Andy Elliot and Hou, Yoyo Tsung-Yu and Kim, Boyoung and \v{s}abanovi\'{c}, Selma and Crandall, David J. and Levy, Karen and Jung, Malte F.},
+title = {Million Eyes on the 'Robot Umps': The Case for Studying Sports in HRI Through Baseball},
+year = {2025},
+publisher = {IEEE Press},
+booktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},
+pages = {1383–1388},
+}
