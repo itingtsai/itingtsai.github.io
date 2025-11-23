@@ -1,4 +1,4 @@
-@InProceedings{Tsai_2025_WACV,
+@InProceedings{Tsai20253D,
     author    = {Tsai, I-Ting and Hariharan, Bharath},
     title     = {{3D} Synthesis for Architectural Design},
     booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
