@@ -100,12 +100,16 @@ h2 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
-  display: inline-block;
+  display: block;
   margin-bottom: 8px;
 }
 
+.authors {
+  display: block;
+}
+
 .venue {
-  display: inline-block;
+  display: block;
   margin-top: 8px;
 }
 
