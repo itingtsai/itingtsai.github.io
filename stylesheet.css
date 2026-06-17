@@ -100,6 +100,13 @@ h2 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.venue {
+  display: inline-block;
+  margin-top: 8px;
 }
 
 .name {
@@ -139,4 +146,24 @@ span.highlight {
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
+}
+
+details.tldr {
+  margin-top: 8px;
+}
+
+details.tldr > summary {
+  cursor: pointer;
+  font-weight: 400;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  list-style: revert;
+}
+
+details.tldr > summary:hover {
+  color: #f09228;
+}
+
+details.tldr > p {
+  margin: 6px 0 0 0;
 }
