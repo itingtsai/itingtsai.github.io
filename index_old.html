@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>I-Ting Tsai — CS PhD @ Cornell | Computer Vision & Generative AI</title>
+
+  <meta name="author" content="I-Ting Tsai is a CS PhD student at Cornell University working on computer vision and generative AI, with a focus on 3D and video synthesis." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <link rel="icon" href="./images/it.svg">
+</head>
+
+<body>
+  <!-- Header / Intro Section -->
+  <div style="width: 100%; padding: 40px 0;">
+    <table style="width: 100%; max-width: 800px; margin: 0 auto; border-spacing: 0;">
+      <tr>
+        <td>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <!-- IMAGE ON THE LEFT -->
+              <td style="padding: 15px; width: 24%; max-width: 37%; text-align: left;">
+                <img 
+                  style="width: 161px; height: auto; border-radius: 20%; object-fit: cover;"
+                  alt="profile photo" 
+                  src="images/my_photo2.png" 
+                  class="hoverZoomLink"
+                />
+              </td>
+
+              <!-- TEXT ON THE RIGHT -->
+              <td style="padding: 8px; width: 100%; vertical-align: middle;">
+                <p class="name" style="text-align: left;">I-Ting Tsai</p> 
+
+                <p>
+                  Hi, I'm a 4th-year CS PhD student at Cornell University, advised by 
+                  Prof. <a href="https://www.cs.cornell.edu/~bharathh/">Bharath Hariharan</a>. 
+                  I work on computer vision and generative AI, with a focus on <strong>3D and video generation</strong> — bridging my background in architecture/design with deep learning.  
+                </p>
+                <p>
+                  Contact: <a href="mailto:itingtsai@cs.cornell.edu">itingtsai@cs.cornell.edu</a>
+                </p>
+                <p style="text-align: left;">
+                  <span style="margin-right: 15px;">or find me on</span>
+                  
+                  <!-- LinkedIn -->
+                  <a 
+                    href="https://linkedin.com/in/i-ting-tsai-561630254"
+                    style="margin-right: 17px;"
+                  >
+                    <img 
+                      src="images/linkedin.png" 
+                      alt="LinkedIn icon" 
+                      style="width: 18px; vertical-align: middle;"
+                    />
+                  </a>
+                
+                  <!-- GitHub -->
+                  <a 
+                    href="https://github.com/itingtsai/"
+                    style="margin-right: 17px;"
+                  >
+                    <img 
+                      src="images/github_icon.png" 
+                      alt="GitHub icon" 
+                      style="width: 20px; vertical-align: middle;"
+                    />
+                  </a>
+                
+                  <!-- Google Scholar -->
+                  <a 
+                    href="https://scholar.google.com/citations?user=iGL84NQAAAAJ"
+                    style="margin-right: 17px;"
+                  >
+                    <img 
+                      src="images/google-scholar.png" 
+                      alt="Google Scholar icon" 
+                      style="width: 17px; vertical-align: middle;"
+                    />
+                  </a>
+                
+                  <!-- Email -->
+                  <!--
+                  <a href="mailto:it84@cornell.edu">
+                    <img 
+                      src="images/envelope.1024x799.png" 
+                      alt="Email icon" 
+                      style="width: 19px; vertical-align: middle;"
+                    />
+                  </a>
+                  <-->
+                </p>
+                
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <hr style="width: 100%; max-width: 800px; border-spacing: 0;">
+
+  <!-- Research Section -->
+  <table style="width: 100%; max-width: 800px; margin: 30px auto 0; border-spacing: 0;">
+    <tr>
+      <td>
+        <!-- Research Section Heading -->
+        <table style="width: 100%; border-spacing: 0;">
+          <tr>
+            <td style="padding: 16px; width: 100%; vertical-align: middle;">
+              <h2>Research</h2>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Research Item(s) -->
+        <table style="width: 100%; border-spacing: 0;">
+          <tr onmouseover="r2r_start()" onmouseout="r2r_stop()">
+            <td style="padding: 16px; width: 20%; vertical-align: middle;">
+              <div class="one">
+                <div class="two" id="r2r_image">
+                  <video width="100%" muted autoplay loop>
+                    <source src="images/video_16.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src="images/seed_2048755225.png" width="100%" />
+              </div>
+              <script type="text/javascript">
+                function r2r_start() {
+                  document.getElementById('r2r_image').style.opacity = "1";
+                }
+                function r2r_stop() {
+                  document.getElementById('r2r_image').style.opacity = "0";
+                }
+                r2r_stop();
+              </script>
+            </td>
+            <td style="padding: 8px; width: 80%; vertical-align: middle;">
+              <span class="papertitle">
+                <strong>3D Synthesis for Architectural Design</strong>
+              </span>
+              <span class="authors"><strong>I-Ting Tsai</strong>, Bharath Hariharan</span>
+              <span class="venue"><em>WACV, 2025 (Application Track)</em></span>
+              <p style="text-align: left;">
+                <a href="https://openaccess.thecvf.com/content/WACV2025/papers/Tsai_3D_Synthesis_for_Architectural_Design_WACV_2025_paper.pdf">paper</a> &nbsp;|&nbsp;
+                <a href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Tsai_3D_Synthesis_for_WACV_2025_supplemental.pdf">supp</a> &nbsp;|&nbsp;
+                <a href="https://itingtsai.github.io/syn_arch_2025/">project page</a> &nbsp;|&nbsp;
+                <a href="data/Tsai_2025_WACV.txt">bibtex</a>
+              </p>
+              <details class="tldr" close>
+                <summary>TL;DR</summary>
+                <p>We build the first training-free 3D synthesis pipeline for architectural design — generating geometry, texture, and detail separately to produce diverse, clean, easily-editable buildings, preferred 95% of the time for diversity and 84% for realism over the strongest baseline.</p>
+              </details>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Micropaper Section -->
+  <table style="width: 100%; max-width: 800px; margin: 30px auto 0; border-spacing: 0;">
+    <tr>
+      <td>
+        <!-- Micropaper Section Heading -->
+        <table style="width: 100%; border-spacing: 0;">
+          <tr>
+            <td style="padding: 16px; width: 100%; vertical-align: middle;">
+              <h2>Short Papers</h2>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Micropaper Item(s) -->
+        <table style="width: 100%; border-spacing: 0;">
+          <tr onmouseover="r1r_start()" onmouseout="r1r_stop()">
+          <!-- <tr> -->
+            <!-- <td style="padding: 16px; width: 20%; vertical-align: middle;">
+              <div class="one">
+                <img src="images/BaseballFigure.png" width="100%" />
+              </div>
+            </td> -->
+            <td style="padding: 16px; width: 20%; vertical-align: middle;">
+              <div class="one">
+                <div class="two" id="r1r_image">
+                  <video width="100%" muted autoplay loop>
+                    <source src="images/Baseball_Dynamic_Video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src="images/BaseballFigure.png" width="100%" />
+              </div>
+              <script type="text/javascript">
+                function r1r_start() {
+                  document.getElementById('r1r_image').style.opacity = "1";
+                }
+                function r1r_stop() {
+                  document.getElementById('r1r_image').style.opacity = "0";
+                }
+                r1r_stop();
+              </script>
+            </td>
+            <td style="padding: 8px; width: 80%; vertical-align: middle;">
+              <span class="papertitle">
+                <strong>
+                  Million Eyes on the "Robot Ump": The Case for Studying Sports in 
+                  HRI Through Baseball
+                </strong>
+              </span>
+              <span class="authors">
+                Waki Kamino, Andrea Wang, Dhruv Agarwal, Sil Hamilton, Eun Jeong Kang,
+                Jieun Kim, Keigo Kusumegi, Pegah Moradi, Daniel Mwesigwa, Yan Tao,
+                <strong>I-Ting Tsai</strong>, Ethan Yang, Shengqi Zhu, Shu-Jung Han,
+                Chi-Jung Lee, Michael Joseph Sack, Tianhong Catherine Yu, Weslie Khoo,
+                Andy Elliot Ricci, Yoyo Tsung-Yu Hou, Boyoung Kim, Dr. Selma Sabanovic,
+                David Crandall, Karen Levy, Malte F Jung
+              </span>
+              <span class="venue"><em>HRI, 2025</em></span>
+              <p style="text-align: left;">
+                <a href="https://dl.acm.org/doi/10.5555/3721488.3721684">late-breaking report</a> &nbsp;|&nbsp;
+                <a href="data/Robot_Umps_2025_HRI.txt">bibtex</a>
+              </p>
+              <details class="tldr" close>
+                <summary>TL;DR</summary>
+                <p>A position paper making the case for sports as a real-world testbed for human-robot interaction, using MLB's vision-based "robot umpire" to surface emerging questions in power dynamics, labor, and the technical challenges of large-scale computer vision deployment.</p>
+              </details>
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+  <hr style="width: 100%; max-width: 800px; margin-top: 60px">
+
+
+  <!-- Event Section -->
+  <table style="width: 100%; max-width: 800px; margin: 30px auto 0; border-spacing: 0;">
+    <tr>
+      <td>
+        <table style="width: 100%; border-spacing: 0;">
+          <tr>
+            <td style="padding: 16px; width: 100%; vertical-align: middle;">
+              <h2>Events</h2>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width: 100%; border-spacing: 0;">
+          <!-- Event Item -->
+          <tr>
+            <td style="padding: 16px; width: 25%; vertical-align: top; white-space: nowrap;">
+              <span style="font-family: monospace; font-size: 13px; color: #888;">2026 Jun</span>
+            </td>
+            <td style="padding: 8px; vertical-align: top;">
+              <b>Workshop Paper</b> &mdash; <a href="https://syndata4cv.github.io/">Synthetic Data for Computer Vision</a> (SynData4CV) @ <em>CVPR 2026</em>
+            </td>
+          </tr>
+          <!-- Event Item -->
+          <tr>
+            <td style="padding: 16px; width: 25%; vertical-align: top; white-space: nowrap;">
+              <span style="font-family: monospace; font-size: 13px; color: #888;">2026 Apr</span>
+            </td>
+            <td style="padding: 8px; vertical-align: top;">
+              <b>Poster</b> &mdash; <a href="https://cs.nyu.edu/~fouhey/NYCVision2026/">NYC Computer Vision Day 2026</a>
+            </td>
+          </tr>
+          <!-- Event Item -->
+          <tr>
+            <td style="padding: 16px; width: 25%; vertical-align: top; white-space: nowrap;">
+              <span style="font-family: monospace; font-size: 13px; color: #888;">2025 Feb</span>
+            </td>
+            <td style="padding: 8px; vertical-align: top;">
+              <b>Poster</b> &mdash; <a href="https://cs.nyu.edu/~fouhey/NYCVision2025/">NYC Computer Vision Day 2025</a>
+            </td>
+          </tr>
+          <!-- Event Item -->
+          <tr>
+            <td style="padding: 16px; width: 25%; vertical-align: top; white-space: nowrap;">
+              <span style="font-family: monospace; font-size: 13px; color: #888;">2024 Apr</span>
+            </td>
+            <td style="padding: 8px; vertical-align: top;">
+              <b>Poster</b> &mdash; <a href="https://cs.nyu.edu/~fouhey/NYCVision2024/">NYC Computer Vision Day 2024</a>
+            </td>
+          </tr>
+          <!-- Add more event rows here -->
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <hr style="width: 100%; max-width: 800px; margin-top: 60px">
+
+
+
+  <!-- Footer -->
+  <div style="width: 100%; text-align: center; padding: 0 60px 60px; margin-top: 60px;">
+    <p style="font-size: 12px; margin: 0; color: #A8A8A8;">
+      Website template adapted from
+      <a style="font-size: 12px; opacity: 0.5; text-decoration: none;" 
+      href="https://github.com/jonbarron/jonbarron_website">
+        Jon Barron
+      </a>.
+    </p>
+  </div>
+</body>
+</html>
